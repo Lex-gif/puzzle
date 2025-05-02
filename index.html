@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Пазл Сніговик</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: grid;
+            grid-template-rows: auto 1fr;
+            height: 100vh;
+        }
+
+        header {
+            background-color: #e0f7fa;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            align-items: center;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .puzzle {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+        .puzzle img {
+            width: 25%;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .order1 {
+            order: 1
+        }
+
+        .order2 {
+            order: 2
+        }
+
+        .order3 {
+            order: 3
+        }
+
+        .order4 {
+            order: 4
+        }
+
+        .order5 {
+            order: 5
+        }
+
+        .order6 {
+            order: 6
+        }
+
+        .order7 {
+            order: 7
+        }
+
+        .order8 {
+            order: 8
+        }
+
+        .order9 {
+            order: 9
+        }
+
+        .order10 {
+            order: 10
+        }
+
+        .order11 {
+            order: 11
+        }
+
+        .order12 {
+            order: 12
+        }
+
+        .order13 {
+            order: 13
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>Ім’я: Олександр</div>
+        <div>Дата: 02.05.2025</div>
+        <div>Пазл: Сніговик</div>
+    </header>
+
+    <div class="container">
+        <div class="puzzle">
+            <img src="./unnamed10.jpg" alt="piece 10" class="order1" />
+            <img src="./unnamed12.jpg" alt="piece 12" class="order2" />
+            <img src="./unnamed4.jpg" alt="piece 4" class="order3" />
+            <img src="./unnamed6.jpg" alt="piece 6" class="order4" />
+
+            <img src="./unnamed5.jpg" alt="piece 5" class="order9" />
+            <img src="./unnamed9.jpg" alt="piece 9" class="order10" />
+            <img src="./unnamed7.jpg" alt="piece 7" class="order11" />
+            <img src="./unnamed8.jpg" alt="piece 8" class="order12" />
+            <img src="./unnamed13.jpg" alt="piece 13" class="order5" />
+            <img src="./unnamed3.jpg" alt="piece 3" class="order6" />
+            <img src="./unnamed11.jpg" alt="piece 10" class="order7" />
+            <img src="./unnamed1.jpg" alt="piece 1" class="order8" />
+
+
+            <img src="./unnamed2.jpg" alt="piece 2" class="hidden" class="order13" />
+        </div>
+    </div>
+</body>
+
+</html>
